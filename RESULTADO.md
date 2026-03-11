@@ -122,6 +122,11 @@ Dessa vez, ao invés de substituir a linha do commit por "drop", vamos substitui
 
 Depois de finalizar o rebase, execute o push para o repositório remoto.
 
+Dá pra utilizar um grep para facilitar a busca do commit:
+
+```bash
+git log --oneline --grep="correção final???"
+```
 
 ## Desafio 6 - Recuperar o arquivo "config.js" sem reverter todo o commit
 
